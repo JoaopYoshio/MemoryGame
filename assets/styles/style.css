@@ -44,6 +44,16 @@ body{
     background-color: #053742;
     font-size: 70px;
 }
+.bg{
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+#container{
+    display: flex;
+}
 #gameOver{
     position: absolute;
     width: 100%;
@@ -68,6 +78,7 @@ body{
 #gameBoard{
     max-width: 700px;
     display: grid;
+    padding: 20px;
     grid-template: 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
